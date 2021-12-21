@@ -1,11 +1,19 @@
 {
-    "name": "programmerzamannow/belajar-php-composer-hello",
+    "name": "programmerzamannow/belajar-php-composer-helloo",
     "description": "Library Composer Hello",
     "type": "n",
     "license": "n",
-    "require": {
 
-        "php": ">=8.0"
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url": "https://github.com/Rrrdty/belajar-php-composser-hello"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "programmerzamannow/belajar-php-composer-hello" : "1.0.0",
+        "monolog/monolog" : "2.2.0"
     },
 
     "autoload": {

@@ -1,0 +1,16 @@
+{
+    "name": "programmerzamannow/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "n",
+    "license": "n",
+    "require": {
+
+        "php": ">=8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+        "ProgrammerZamanNow\\Belajar\\": "src/"
+    }
+}
+}
